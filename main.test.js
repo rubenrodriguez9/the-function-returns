@@ -3,6 +3,42 @@
  ******************/
 
 
+let greeting = 'Hello';
+let sum = 0;
+let prod = 0;
+
+function greet(changeString){
+greeting = 'Hello ' + changeString;
+}
+
+function sumOfTwo(x, y){
+sum = x + y;
+}
+
+function multiply(a, b, c){
+prod = a * b * c;
+}
+
+function returnWhatISay(said){
+
+  return said;
+}
+
+function sayHi(noun){
+
+  return 'Hello ' + noun +'!';
+}
+
+function divide(r, k){
+    return r / k
+}
+
+function remainder(R, K){
+  return R % K;
+}
+
+
+
 
 
 
